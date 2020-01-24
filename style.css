@@ -1,0 +1,60 @@
+	.pembatas{
+	display: block;
+    height: auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 0 5px 20px;
+	}
+	.pembatas ul{
+		position: relative;
+		width: 450px;
+		margin-left: 20px;
+		padding: 10px;
+		box-sizing: border-box;
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.pembatas ul li {
+		display: flex;
+		background: rgba(255,255,255,.1);
+		padding: 10px 20px;
+		color: #000;
+		margin: 5px 0;
+		transition: .5s;
+	}
+	.pembatas ul li:nth-child(1){
+		background: rgba(255,255,255,.55);
+	}
+	.pembatas ul li:nth-child(2){
+		background: rgba(255,255,255,.5);
+	}
+	.pembatas ul li:nth-child(3){
+		background: rgba(255,255,255,.4);
+	}
+	.pembatas ul li:nth-child(4){
+		background: rgba(255,255,255,.3);
+	}
+	.pembatas ul li:nth-child(5){
+		background: rgba(255,255,255,.2);
+	}
+	.pembatas ul li span:nth-child(1){
+		width: 30px;
+	}
+	.pembatas ul li span:nth-child(2){
+		width: 200px;
+	}
+	.pembatas ul li span:nth-child(3){
+		width: 100px;
+		text-align: right;
+	}
+	.pembatas ul li span:nth-child(4){
+		width: 70px;
+		text-align: right;
+	}
+	.pembatas ul li:hover{
+		transform: scale(1.06);
+		background: #2196F3;
+	}
+	.pembatas ul li a{
+		color: aqua;
+	}
